@@ -1,0 +1,15 @@
+{
+  "name": "lab6-act1-api",
+  "version": "1.0.0",
+  "description": "API propia para consultar telemetria IoT (GET /data) y reenviarla a un dashboard de visualizacion en Node-RED (POST /visualize)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
